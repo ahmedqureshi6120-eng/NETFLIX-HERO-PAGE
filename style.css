@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+ .container{
+  width: 1200px
+  ;
+ }
+
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertical center */
+  align-items: center;       /* horizontal center */
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0,0,0,.9) 1%,  
+      rgba(0,0,0,0.4) 50%, 
+      rgba(0,0,0,.90) 120%  
+    ),
+    url("images/Netflix Shows.jpeg");
+
+  margin-top: -120px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero p {
+  color: white;
+  font-size: 50px;
+  text-align: center;  
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero span {
+  display: block; 
+  
+}
+
+.hero h6{
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-top: -35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.finish{
+    padding: 8px 16px;
+  margin-right: 140px;
+  color: aliceblue;
+  background-color: red;
+  border-radius: 3px;
+  border: red;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-weight: 700;
+  margin-left: 140px;
+  margin-top: -18px;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  margin-top: -40px;
+}
+
+.signup{
+  padding: 8px 13px;
+  margin-right: 140px;
+  color: aliceblue;
+  background-color: red;
+  border-radius: 5px;
+  border: red;
+}
+
+.signup:hover {
+  background-color: #b0060f; 
+}
+
+.logo img {
+  width: 280px;      
+  height: auto;
+  cursor: pointer;  
+  margin-left:55px;
+}
+
+
