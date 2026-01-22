@@ -93,4 +93,78 @@ body{
   margin-left:55px;
 }
 
+.assignment-page{
+ height: 80vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -170px;
+ gap: 30px;
+ background-color: #b0060f;
+ 
+ 
+}
+ h1{
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #b0060f;
+}
+.over{
+ width:180px;
+ transition: all 1s;
+ border-radius: 40px;
+ background-color: #ffffff;
+ 
+}
 
+.fandq{
+  min-height: 50vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+}
+
+.que{
+  background-color: #b0060f;
+  width: 100%;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+
+.item{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 15px 0;
+}
+
+
+.fandq h2{
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.fandq h3{
+  color: #000000;
+  font-size: 16px;
+  margin-top: 10px;
+  display: none;
+  line-height: 1.5;
+}
+
+
+.que img{
+  width: 18px;
+  transition: transform 0.3s ease;
+}
